@@ -19,8 +19,8 @@ listeleyebilecekleri, düzenleyebileceği ve silebileceği servisleri yazdım.
 Postman döküman linki ektedir.
 </p>
 <a href="https://documenter.getpostman.com/view/33934273/2sA35G3gzF" target="_blank">Link için buraya tıklayın</a>
-<p>Proje nasıl kullanılır? <br>
-Projede MySql kullanılmıştır, .env dosyasında veritabanı bilgileri yer almaktadır. Database migration komutlarını "php artisan migrate" komutuyla çalıştırdıktan sonra tablolar oluşacaktır. 
+<h1>Proje nasıl kullanılır?</h1> <br>
+<p>Projede MySql kullanılmıştır, .env dosyasında veritabanı bilgileri yer almaktadır. Database migration komutlarını "php artisan migrate" komutuyla çalıştırdıktan sonra tablolar oluşacaktır. 
 Tablolar oluştuktan sonra "php artisan serve" komutuyla projeyi çalıştırın ve Postman'e gidin.
 Daha sonra Register servisiyle hesabınızı oluşturun, arkaplanda yeni bir User modeli oluşacaktır ve response olarak bir token döndürülecektir.
 Tokeni alıp diğer servislerde "authorization" bölümünden "bearer token" seçeneğini seçerek çıkan kutucuğa tokeni yapıştırmanız gereklidir, aksi takdirde servisler doğru çalışmayacaktır. 
