@@ -22,7 +22,6 @@ Postman döküman linki ektedir.
 <h1>Proje nasıl kullanılır?</h1> <br>
 <p>Projede MySql kullanılmıştır, .env dosyasında veritabanı bilgileri yer almaktadır. Database migration komutlarını "php artisan migrate" komutuyla çalıştırdıktan sonra tablolar oluşacaktır. 
 Tablolar oluştuktan sonra "php artisan serve" komutuyla projeyi çalıştırın ve Postman'e gidin.
-Daha sonra Register servisiyle hesabınızı oluşturun, arkaplanda yeni bir User modeli oluşacaktır ve response olarak bir token döndürülecektir.
-Tokeni alıp diğer servislerde "authorization" bölümünden "bearer token" seçeneğini seçerek çıkan kutucuğa tokeni yapıştırmanız gereklidir, aksi takdirde servisler doğru çalışmayacaktır. 
-Login servisinden giriş sağlayabilir, create servisinden yeni kayıt oluşturabilir, update servisinden kaydınızın ID numarasına göre güncelleme sağlayabilir ve delete servisinden kaydınızın ID numarasına göre silme işlemlerini gerçekleştirebilirsiniz.
+Daha sonra Register servisiyle hesabınızı oluşturun, arkaplanda yeni bir User modeli oluşacaktır. Oluşturduğunuz kullanıcıyla login servisinden giriş sağladığınızda response olarak bir token dönecektir.
+Tokeni alıp diğer servislerde "authorization" bölümünden "bearer token" seçeneğini seçerek çıkan kutucuğa tokeni yapıştırmanız gereklidir, aksi takdirde servisler doğru çalışmayacaktır. create servisinden yeni kayıt oluşturabilir, update servisinden kaydınızın ID numarasına göre güncelleme sağlayabilir ve delete servisinden kaydınızın ID numarasına göre silme işlemlerini gerçekleştirebilirsiniz.
 </p>
